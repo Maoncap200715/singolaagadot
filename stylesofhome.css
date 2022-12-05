@@ -1,0 +1,63 @@
+body{
+    margin:0;
+    background-color: #171717;
+    font-family: 'Varela Round', sans-serif;
+}
+
+/* this is my navbar */
+span.md-3remenu{
+    color: whitesmoke !important;
+    font-size: 2.5rem;
+}
+span.arrow{
+    color:whitesmoke;
+    font-size: 3rem;
+}
+.arrow{
+    text-decoration: none;
+    background-color: #ffffff00 !important;
+    border: none !important;
+    position:relative;
+    top: 50%;
+    right: 80.5%;
+}
+.menubutton-show{
+    text-decoration: none;
+    background-color: #ffffff00 !important;
+    border: none !important;
+    font-size: 3rem !important;
+    position: absolute;
+    right: .6%;
+    top: .5%;
+}
+.menubutton-hide{
+    text-decoration: none;
+    background-color: #ffffff00 !important;
+    border: none !important;
+    font-size: 3rem !important;
+    transition: all 5s;
+    position:absolute;
+    right: -20%;
+}
+.nav-closed{
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    right: -50%;
+    background-color: orange;
+    transition: all 3s;
+}
+.nav-open{
+    background-color: orange !important;
+    width: 20% !important;
+    height: 100% !important;
+    position:absolute;
+    top: 0;
+    right: 0;
+    transition-delay: 0.5s;
+    transition:all 1.5s !important;
+}
+
+
+
+/* end of navbar */
